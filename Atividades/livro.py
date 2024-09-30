@@ -12,9 +12,3 @@ class Livro:
             print("Esse livro é um clássico.")
         else:
             print("Ainda não é considerado um clássico")
-    
-
-l1 = Livro("Pequeno Príncipe","Antoine de Saint-Exupéry",1943)
-l1.exibirInformacao()
-
-l1.verificarIdadeLivro() 
