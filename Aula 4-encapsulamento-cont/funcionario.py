@@ -18,5 +18,7 @@ class Funcionario:
     
     @salario.setter #Criar um set para o atributo de forma "mais amigável"
     def salario(self, valor):
-        self.__salario = valor 
-    
+        if valor > 0:
+            self.__salario = valor
+        else:
+            print("Você não pode ter um salário negativo")

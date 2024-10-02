@@ -7,8 +7,8 @@ funcionario1.setNome("Kaio")
 print("Seu nome atual é",funcionario1.getNome())
 
 #Estamos tentando acessar o atributo salario
-print("Seu salário atual é: ",funcionario1.salario)
+print("Seu salário atual é:",funcionario1.salario)
 
 funcionario1.salario = 5000
 
-print("Seu salário atual é: ",funcionario1.salario)
+print("Seu salário atual é:",funcionario1.salario)
