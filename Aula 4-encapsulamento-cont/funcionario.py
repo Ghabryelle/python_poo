@@ -1,0 +1,22 @@
+class Funcionario:
+    def __init__(self, nome, salario=1000):
+        self.__nome = nome
+        self.__salario = salario
+        
+    def getNome(self):
+        return self.__nome
+    
+    def setNome(self, valor):
+        self.__nome = valor
+        
+    #Iremos utilizar um recurso exclusivo do python para acessar atributos privados
+
+    #Criando um get personalizado
+    @property #Esse item irá criar um get "mais amigável"
+    def salario(self):
+        return self.__salario
+    
+    @salario.setter #Criar um set para o atributo de forma "mais amigável"
+    def salario(self, valor):
+        self.__salario = valor 
+    
