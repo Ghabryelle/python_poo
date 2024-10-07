@@ -3,9 +3,6 @@ class Calculadora:
         self.__num1 = num1
         self.__num2 = num2
         
-    def Construtor(self):
-        print(f"\nValor 1 é {self.__num1} e o valor 2 é {self.__num2}.\n")
-        
     def somar(self):
         print(f"A soma de {self.__num1} e {self.__num2} = {self.__num1+self.__num2}\n")
         

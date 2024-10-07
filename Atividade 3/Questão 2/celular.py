@@ -5,9 +5,6 @@ class Celular:
         self.__plano = plano
         self.__valorMinuto = valorMinuto
         
-    def Construtor(self):
-        print(f"Olá, seu número atual é {self.__numero}, seu plano é {self.__plano} e o seu saldo é {self.__saldo}.")
-        
     @property
     def plano(self):
         return self.__plano
