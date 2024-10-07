@@ -27,4 +27,4 @@ class Celular:
             print("Você não possui saldo suficiente")
     
     def exibir_dados(self):
-        print(f"Olá novamente, seu número atual é {self.__numero}, seu plano é {self.__plano} e o seu saldo é {self.__saldo}.")
+        print(f"Olá, seu número atual é {self.__numero}, seu plano é {self.__plano} e o seu saldo é {self.__saldo}.")
