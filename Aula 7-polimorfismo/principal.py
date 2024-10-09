@@ -1,0 +1,9 @@
+from produto import Produto, Eletronico
+
+prod1 = Produto("Armário", 758.99)
+prod1.descrever()
+prod1.calcularDesconto(10)
+
+eletro1 = Eletronico("Smartphone", 1544.99, 220)
+eletro1.descrever()
+eletro1.calcularDesconto(30)
