@@ -35,7 +35,7 @@ class Funcionario:
         conexao = self.conexao()
         consulta = conexao.cursor()
         
-        sql = "SELCT * FROM funcionario"
+        sql = "SELECT * FROM funcionario"
         consulta.execute(sql)
         
         resultado = consulta.fetchall()
